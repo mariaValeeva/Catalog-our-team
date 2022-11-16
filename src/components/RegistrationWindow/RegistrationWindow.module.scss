@@ -1,0 +1,53 @@
+.flex {
+    display: flex;
+}
+
+.registrationBlock {
+    max-width: 500px;
+    min-height: 519px;
+    padding: 16px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    &Title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 16px;
+    }
+
+    &Form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        label {
+            width: 100%;
+            display: block;
+        }
+
+        
+
+        input {
+            width: 100%;
+            min-height: 48px;
+            margin-bottom: 16px;
+            margin-top: 8px;
+            background-color: #F8F8F8;
+            border-radius: 8px;
+            border: 0;
+        }
+
+        button {
+            min-height: 48px;
+            border-radius: 8px;
+            padding: 13px 156px;
+            background-color: #512689;
+            color: #FFFFFF;
+            cursor: pointer;
+            text-decoration: none;
+
+        }
+    }
+}
+
